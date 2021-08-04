@@ -11,6 +11,8 @@
 		AC7C7B6F26BAA772002B68AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7C7B6E26BAA772002B68AC /* ContentView.swift */; };
 		AC7C7B7126BAA775002B68AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7C7B7026BAA775002B68AC /* Assets.xcassets */; };
 		AC7C7B7426BAA775002B68AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7C7B7326BAA775002B68AC /* Preview Assets.xcassets */; };
+		AC7C7B7D26BAABDB002B68AC /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7C7B7C26BAABDB002B68AC /* ButtonStyle.swift */; };
+		AC7C7B8026BAAC84002B68AC /* AlertType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7C7B7F26BAAC84002B68AC /* AlertType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		AC7C7B7026BAA775002B68AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC7C7B7326BAA775002B68AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC7C7B7526BAA775002B68AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC7C7B7C26BAABDB002B68AC /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		AC7C7B7F26BAAC84002B68AC /* AlertType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				AC7C7B7026BAA775002B68AC /* Assets.xcassets */,
 				AC7C7B7526BAA775002B68AC /* Info.plist */,
 				AC7C7B7226BAA775002B68AC /* Preview Content */,
+				AC7C7B7C26BAABDB002B68AC /* ButtonStyle.swift */,
+				AC7C7B7F26BAAC84002B68AC /* AlertType.swift */,
 			);
 			path = DemoAppAlert;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC7C7B8026BAAC84002B68AC /* AlertType.swift in Sources */,
+				AC7C7B7D26BAABDB002B68AC /* ButtonStyle.swift in Sources */,
 				AC7C7B6F26BAA772002B68AC /* ContentView.swift in Sources */,
 				AC7C7B6D26BAA772002B68AC /* DemoAppAlertApp.swift in Sources */,
 			);
